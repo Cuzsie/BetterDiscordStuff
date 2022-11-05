@@ -1,0 +1,27 @@
+div[class*="typeWindows-"]::after {
+	content: 'syphon';
+	font-weight: 5000;
+	line-height: 31px;
+	color: var(--text-muted);
+	font-size: 14px;
+	position: absolute;
+	padding: 0 12px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: rgba(var(--black), 0.85);
+	z-index: -1;
+}
+
+div[data-list-item-id="guildsnav___home"] {
+	background: var(--home-image) top center/110% no-repeat;
+}
+
+:root {
+  --home-image: url('https://media.discordapp.net/attachments/901138569723256844/1018114069670146068/fetch_me_their_souls-3.gif');
+  --font-primary: 'Comic Sans MS', sans-serif;
+  --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+  --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+}
